@@ -1,9 +1,8 @@
-# Autor:
-
+# Autor: Thiago.
 def situacao(m):
-    """Devolve "Aprovado" se a media for 60 ou mais;
-    senao, devolve "Reprovado".
-    Ex.: situacao(60) -> "Aprovado"
-    """
-    # complete aqui: troque o return "?" pelo if
-    return "?"
+    if media >= 60:
+        print('Aprovado')
+    elif media <= 50:
+        print('Em recuperação')
+    elif media < 50:
+        print('Reprovado')
